@@ -1,0 +1,36 @@
+flutter_native_splash:
+  # Background color
+  color: "#1E3A8A"
+  
+  # Background image (optional)
+  # image: assets/splash_bg.png
+  
+  # Branding
+  branding: assets/splash_logo.png
+  branding_dark: assets/splash_logo.png
+  
+  # Colorize the branding image
+  colorize: true
+  colorize_dark: true
+  
+  # Fullscreen mode
+  fullscreen: true
+  
+  # Android configuration
+  android_12:
+    image: assets/splash_logo.png
+    icon_background_color: "#1E3A8A"
+    image_dark: assets/splash_logo.png
+    icon_background_color_dark: "#1E3A8A"
+  
+  # iOS configuration
+  ios: true
+  
+  # Web configuration
+  web: false
+  
+  # Platform-specific configurations
+  android: true
+  ios: true
+  web: false
+  desktop: false 
